@@ -2,9 +2,9 @@
 
 Export your Facebook Notes as Facebook's takeout service doesn't do it for you
 
-
 ## Usage
 
+[Complete API Documentation.](http://master.facebook-notes-exporter.bevry-archive.surge.sh/docs/globals.html)
 
 ### As a Consumer
 
@@ -24,20 +24,18 @@ facebook-export-notes
 
 Notes should go inside `./notes` and `./cleaned`
 
-
-
 ### As a Developer
 
 Clone the repository:
 
-``` shell
+```shell
 git clone https://github.com/balupton/facebook-export-notes.git
 cd facebook-export-notes
 ```
 
 Install dependencies - requires [node](https://nodejs.org)
 
-``` shell
+```shell
 npm install
 ```
 
